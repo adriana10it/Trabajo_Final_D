@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>ESTADÍSTICA E INFORMÁTICA</title>
+</head>
+<body>
+<p> El ingreso a la carrera profesional de Estadística Informática
+ de la UNALM requiere que el futuro estudiante demuestre:
+</p><br>
+<p> COMPETENCIAS </p><br>
+<ul type= "circle" >
+<li> Razona en términos numéricos para la comprensión de conceptos y relaciones complejas.</li>
+<li> Poseer aptitud de análisis y pensamiento crítico.</li>
+<li> Aprende motivado por la curiosidad intelectual y el interés por la investigación.</li>
+</ul>
+<a href="https://admision.lamolina.edu.pe/estadistica-informatica"> MAYOR INFORMACIÓN</a>
+</body>
+</html>
