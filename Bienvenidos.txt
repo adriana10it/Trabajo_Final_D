@@ -1,1 +1,68 @@
-Trabajo final del grupo D
+<html>
+<head>
+	<title>Introducción CSS</title>	
+</head>
+
+<body>
+<h1> CSS (Cascading Style Sheets: Hoja de estilo en cascada)</h1>
+
+<h2>¿Qué es CSS?</h2>
+<p>
+Es un lenguaje utilizado en la presentación de documentos HTML, que sirve para la presentación visual y aspecto de una página web.<br>
+Es utilizado por parte de los navegadores web de internet y por los programadores web informáticos.<br>
+</p>
+<p>
+El lanzamiento de CSS provocó un cambio importante en la creación de páginas web
+Ahora el contenido como: títulos, párrafos, enlcaces, listas, tablas, formularios, etc es totalmente
+independiente de su presentación como: colores, bordes. márgenes, fondos,layouts, tamaños,fuentes, alineación de textos, etc.
+<br>
+Esta separación proporciona varias ventajas ya que vaias páginas html pueden compartir la hoja de estilo
+<br>
+<h2>¿Cómo incorporar CSS?</h2>
+Para incorporar código CSS se tiene tres maneras diferentes:
+
+Una lista ordenada
+<ol type="1"> 
+<li><b>En línea </b></li>
+Consiste en escribir código CSS como valor del atributo style de un elemento HTML, 
+dónde el estilo definido solo se aplicará a ese elemento:
+<br>
+
+<div id="id1" style="background-color:red;color:white;float:left;width:50%;display:inline-block">
+Escriba su nacionalidad:
+<input id="Nacionalidad"></input>
+</div>
+
+<div id="id2"style="background-color:black;color:white;float:right;width:50%;display:inline-block">
+<label>Seleccione ciudad de residencia</label>
+<select id="ciudad">
+<option value="1150">Lima</option>
+<option value="2030">Arequipa</option>
+</select>
+</div>
+<br>
+<br>
+<br>
+<li><b>Embebido </b></li>
+Consiste en incrustar un elemento STYLE en alguna 
+parte del documento HTML que se aplicará a los elementos de ese documento.
+<br>
+<li><b>Externo </b></li>
+Consiste en definir los estilos CSS en un archivo aparte que luego puede ser enlazado 
+a todos los documentos HTML que lo requiera, ésta es la ténica más recomendada
+</ol>
+El código CSS está compuesto por reglas, cada regla está formada por:
+<ul type="circle"> 
+<li><b>El Selector </b></li>
+El cual permite seleccionar a qué elemento del documento se aplica la regla.
+<li><b>El bloque declarativo </b></li>
+El cual contiene una o más declaraciones, cada declaración es un par propiedad-valor
+separado por dos puntos y finalizado por punto y coma. La propiedad indica la 
+característica del elemento que se desea cambiar como la anchura, altura, color, etc.
+y el valor indica cómo se desea cambiar esa característica.
+
+
+</ul>
+
+</body>
+</html>
